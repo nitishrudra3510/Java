@@ -23,7 +23,7 @@ public class armstrong {
         int num = Integer.parseInt(args[0]);
         System.out.println("Cmd Args: " + num);
         
-        if (isArmstrong(num)) {
+        if (isArmstrong(num)) {in 
             System.out.println("The given number " + num + " is an Armstrong number");
         } else {
             System.out.println("The given number " + num + " is not an Armstrong number");
